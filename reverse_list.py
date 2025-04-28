@@ -7,8 +7,6 @@ for i in reversed(adad):
 print ("------")
 
 # Without built-in reversed class
-index = len(adad) - 1
 
-while 0 <= index:
-    print (adad[index])
-    index = index - 1
+for i in (adad[::-1]):
+    print(i)
